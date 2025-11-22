@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-        
+
         .pixel-font {
             font-family: 'Press Start 2P', cursive;
         }
-        
+
         .mario-gradient {
             background: linear-gradient(135deg, #1a237e 0%, #0d47a1 25%, #01579b 50%, #006064 75%, #004d40 100%);
         }
-        
+
         .btn-mario {
             transition: transform 0.2s;
         }
-        
+
         .btn-mario:hover {
             transform: scale(1.05);
         }
-        
+
         .card-shadow {
             box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.3);
         }
@@ -33,9 +34,12 @@
     <!-- Header -->
     <header class="text-white py-8 px-4">
         <div class="container mx-auto text-center">
-            <h1 class="text-4xl md:text-6xl font-bold mb-4 pixel-font">
-                <span class="text-blue-400">M</span><span class="text-yellow-400">A</span><span class="text-red-500">R</span><span class="text-green-400">I</span><span class="text-yellow-400">O</span>
-                <span class="text-red-500 ml-4">H</span><span class="text-green-400">A</span><span class="text-yellow-400">C</span><span class="text-blue-400">K</span>
+            <h1 class="text-3xl md:text-6xl font-bold mb-4 pixel-font">
+                <span class="text-blue-400">M</span><span class="text-yellow-400">A</span><span
+                    class="text-red-500">R</span><span class="text-green-400">I</span><span
+                    class="text-yellow-400">O</span>
+                <span class="text-red-500 ml-4">H</span><span class="text-green-400">A</span><span
+                    class="text-yellow-400">C</span><span class="text-blue-400">K</span>
             </h1>
             <p class="text-xl md:text-2xl pixel-font text-cyan-300 mb-2">Level Up Your Code</p>
             <p class="text-lg md:text-xl text-white font-bold">November 29-30, 2025</p>
@@ -44,21 +48,24 @@
 
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8 max-w-6xl">
-        
+
         <!-- Description Section -->
         <section class="bg-white rounded-lg p-6 md:p-8 mb-8 card-shadow">
-            
+
             <h2 class="text-3xl font-bold text-red-600 mb-4 pixel-font text-sm md:text-base">About the Hackathon</h2>
             <p class="text-gray-700 text-lg mb-4 leading-relaxed">
-                Get ready to power up your coding skills at Mario Hack! This exciting 2-day hackathon brings together developers, data scientists, and innovators to tackle real-world challenges using Python and machine learning.
+                Get ready to power up your coding skills at Mario Hack! Team up for a super-friendly adventure
+                and showcase your Python and data science skills
             </p>
             <p class="text-gray-700 text-lg mb-6 leading-relaxed">
-                Whether you're building predictive models, creating data visualizations, or developing innovative solutions, this is your chance to level up your code and compete for amazing prizes!
+                Whether you're building predictive models, creating data visualizations, or developing innovative
+                solutions, this is your chance to level up your code and compete for amazing prizes!
             </p>
-            
+
             <!-- Register Button -->
             <div class="text-center">
-                <button class="btn-mario bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-xl shadow-lg pixel-font text-sm">
+                <button
+                    class="btn-mario bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-xl shadow-lg pixel-font text-sm">
                     🍄 REGISTER NOW 🍄
                 </button>
             </div>
@@ -67,7 +74,7 @@
         <!-- Planning Schedule -->
         <section class="bg-yellow-100 rounded-lg p-6 md:p-8 mb-8 card-shadow">
             <h2 class="text-3xl font-bold text-red-600 mb-6 pixel-font text-sm md:text-base">📋 Event Schedule</h2>
-            
+
             <div class="overflow-x-auto">
                 <table class="w-full border-collapse">
                     <thead>
@@ -78,39 +85,47 @@
                     </thead>
                     <tbody class="text-gray-800">
                         <tr class="bg-white hover:bg-yellow-50">
-                            <td class="border-2 border-gray-300 p-3">Check In (salles, info...) (1h)</td>
+                            <td class="border-2 border-gray-300 p-3">Check In (classes, info...) (1h)</td>
                             <td class="border-2 border-gray-300 p-3 font-semibold">17h - 18h</td>
                         </tr>
                         <tr class="bg-gray-50 hover:bg-yellow-50">
-                            <td class="border-2 border-gray-300 p-3"><span class="bg-yellow-300 px-2 py-1 rounded">Ceremonie de départ + Panel</span> (1h)</td>
+                            <td class="border-2 border-gray-300 p-3"><span
+                                    class="bg-yellow-300 px-2 py-1 rounded">Opening Ceremony + Panel</span> (1h)</td>
                             <td class="border-2 border-gray-300 p-3 font-semibold">18h - 19h</td>
                         </tr>
                         <tr class="bg-white hover:bg-yellow-50">
-                            <td class="border-2 border-gray-300 p-3"><span class="bg-red-400 text-white px-2 py-1 rounded">Dinner</span> (1h)</td>
+                            <td class="border-2 border-gray-300 p-3"><span
+                                    class="bg-red-400 text-white px-2 py-1 rounded">Dinner</span> (1h)</td>
                             <td class="border-2 border-gray-300 p-3 font-semibold">19h - 20h</td>
                         </tr>
                         <tr class="bg-gray-50 hover:bg-yellow-50">
-                            <td class="border-2 border-gray-300 p-3">Présentation du Sujet + Q&A (30min)</td>
+                            <td class="border-2 border-gray-300 p-3">Presentation of the Topic + Q&A (30min)</td>
                             <td class="border-2 border-gray-300 p-3 font-semibold">20h - 20:30</td>
                         </tr>
                         <tr class="bg-white hover:bg-yellow-50">
-                            <td class="border-2 border-gray-300 p-3">1ere Partie du hackathon <span class="bg-yellow-300 px-2 py-1 rounded font-bold">(6h)</span></td>
+                            <td class="border-2 border-gray-300 p-3">Part 1 of the Hackathon <span
+                                    class="bg-yellow-300 px-2 py-1 rounded font-bold">(6h)</span></td>
                             <td class="border-2 border-gray-300 p-3 font-semibold">20:30h - 02:30</td>
                         </tr>
                         <tr class="bg-gray-50 hover:bg-yellow-50">
-                            <td class="border-2 border-gray-300 p-3"><span class="bg-red-400 text-white px-2 py-1 rounded">Pause Café</span> (30min)</td>
+                            <td class="border-2 border-gray-300 p-3"><span
+                                    class="bg-red-400 text-white px-2 py-1 rounded">Coffee Break</span> (30min)</td>
                             <td class="border-2 border-gray-300 p-3 font-semibold">02:30 - 3h</td>
                         </tr>
                         <tr class="bg-white hover:bg-yellow-50">
-                            <td class="border-2 border-gray-300 p-3">2eme Partie du hackathon <span class="bg-yellow-300 px-2 py-1 rounded font-bold">(5h)</span></td>
+                            <td class="border-2 border-gray-300 p-3">Part 2 of the Hackathon <span
+                                    class="bg-yellow-300 px-2 py-1 rounded font-bold">(5h)</span></td>
                             <td class="border-2 border-gray-300 p-3 font-semibold">3h - 8h</td>
                         </tr>
                         <tr class="bg-gray-50 hover:bg-yellow-50">
-                            <td class="border-2 border-gray-300 p-3"><span class="bg-red-400 text-white px-2 py-1 rounded">Petit Déj</span> (30min)</td>
+                            <td class="border-2 border-gray-300 p-3"><span
+                                    class="bg-red-400 text-white px-2 py-1 rounded">Breakfast</span> (30min)</td>
                             <td class="border-2 border-gray-300 p-3 font-semibold">8h - 8:30h</td>
                         </tr>
                         <tr class="bg-white hover:bg-yellow-50">
-                            <td class="border-2 border-gray-300 p-3">Equipes Gagnants + mots de fermeture + <span class="bg-red-400 text-white px-2 py-1 rounded font-bold">certifs</span> (30min)</td>
+                            <td class="border-2 border-gray-300 p-3">Winning Teams + Closing Remarks + <span
+                                    class="bg-red-400 text-white px-2 py-1 rounded font-bold">awards</span> (30min)
+                            </td>
                             <td class="border-2 border-gray-300 p-3 font-semibold">8:30h - 9h</td>
                         </tr>
                     </tbody>
@@ -121,72 +136,89 @@
         <!-- Requirements -->
         <section class="bg-green-100 rounded-lg p-6 md:p-8 mb-8 card-shadow">
             <h2 class="text-3xl font-bold text-green-700 mb-6 pixel-font text-sm md:text-base">⚡ Requirements</h2>
-            
+
             <div class="space-y-4">
                 <div class="bg-white p-4 rounded-lg shadow">
                     <h3 class="font-bold text-xl text-green-700 mb-2">📚 Programming Languages & Data Skills:</h3>
-                    <p class="text-gray-700">Intermediate level in Python, and Python libraries such as Pandas, scikit-learn, matplotlib, seaborn, etc.</p>
+                    <p class="text-gray-700">Intermediate level in Python, and Python libraries such as Pandas,
+                        scikit-learn, matplotlib, seaborn, etc.</p>
                 </div>
-                
+
                 <div class="bg-white p-4 rounded-lg shadow">
                     <h3 class="font-bold text-xl text-green-700 mb-2">⏱️ Time Limit:</h3>
-                    <p class="text-gray-700">All work on the project must be created during the hackathon, which has a specific time limit as specified in the planning.</p>
+                    <p class="text-gray-700">All work on the project must be created during the hackathon, which has a
+                        specific time limit as specified in the planning.</p>
                 </div>
-                
+
                 <div class="bg-white p-4 rounded-lg shadow">
                     <h3 class="font-bold text-xl text-green-700 mb-2">📤 Submission:</h3>
-                    <p class="text-gray-700">A final submission will be required by the deadline set after the subject presentation.</p>
+                    <p class="text-gray-700">A final submission will be required by the deadline set after the subject
+                        presentation.</p>
                 </div>
             </div>
         </section>
 
         <!-- Joining Platform -->
         <section class="bg-blue-100 rounded-lg p-6 md:p-8 mb-8 card-shadow">
-            <h2 class="text-3xl font-bold text-blue-700 mb-6 pixel-font text-sm md:text-base">🎮 Joining the Platform/Competition</h2>
-            
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 pixel-font text-sm md:text-base">🎮 Joining the
+                Platform/Competition</h2>
+
             <ol class="space-y-3 text-gray-800">
                 <li class="flex items-start">
-                    <span class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">1</span>
+                    <span
+                        class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">1</span>
                     <span class="pt-1">Log in to your Kaggle Account</span>
                 </li>
                 <li class="flex items-start">
-                    <span class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">2</span>
+                    <span
+                        class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">2</span>
                     <span class="pt-1">Open the competition page (we will provide you with it later)</span>
                 </li>
                 <li class="flex items-start">
-                    <span class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">3</span>
+                    <span
+                        class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">3</span>
                     <span class="pt-1">Create a Notebook in Kaggle or Locally (Jupyter/VSCode)</span>
                 </li>
                 <li class="flex items-start">
-                    <span class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">4</span>
+                    <span
+                        class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">4</span>
                     <span class="pt-1">Download the data and put it in the same location as your notebook</span>
                 </li>
                 <li class="flex items-start">
-                    <span class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">5</span>
+                    <span
+                        class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">5</span>
                     <span class="pt-1">Prepare the model (import → load → select → train → predict)</span>
                 </li>
                 <li class="flex items-start">
-                    <span class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">6</span>
-                    <span class="pt-1">Prepare the Submission File: Make sure the columns and submission sheet look like the sample_submission.csv file</span>
+                    <span
+                        class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">6</span>
+                    <span class="pt-1">Prepare the Submission File: Make sure the columns and submission sheet look like
+                        the sample_submission.csv file</span>
                 </li>
                 <li class="flex items-start">
-                    <span class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">7</span>
-                    <span class="pt-1">Save your submission file (ex. submission.to_csv("submission.csv", index=False))</span>
+                    <span
+                        class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">7</span>
+                    <span class="pt-1">Save your submission file (ex. submission.to_csv("submission.csv",
+                        index=False))</span>
                 </li>
                 <li class="flex items-start">
-                    <span class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">8</span>
+                    <span
+                        class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3 flex-shrink-0">8</span>
                     <span class="pt-1">Upload the Submission to Kaggle:
                         <ul class="ml-6 mt-2 space-y-1 list-disc">
                             <li>Go to the competition page</li>
                             <li>Click the <strong>Submit Predictions</strong> button</li>
-                            <li>Upload your <code class="bg-gray-200 px-1 rounded">submission.csv</code> file. Click on Submit</li>
+                            <li>Upload your <code class="bg-gray-200 px-1 rounded">submission.csv</code> file. Click on
+                                Submit</li>
                         </ul>
                     </span>
                 </li>
             </ol>
-            
+
             <div class="mt-6 bg-yellow-200 border-l-4 border-yellow-600 p-4 rounded">
-                <p class="font-bold text-gray-800">📊 Kaggle will score your file and show: <span class="text-blue-600">Your score &</span> <span class="text-green-600">Your position on the leaderboard</span></p>
+                <p class="font-bold text-gray-800">📊 Kaggle will score your file and show: <span
+                        class="text-blue-600">Your score &</span> <span class="text-green-600">Your position on the
+                        leaderboard</span></p>
             </div>
         </section>
 
@@ -194,10 +226,10 @@
         <section class="bg-white rounded-lg p-6 text-center card-shadow">
             <h3 class="text-2xl font-bold text-gray-700 mb-4 pixel-font text-sm">Organized by</h3>
             <div class="flex flex-wrap justify-center items-center gap-6">
-                <span class="text-gray-600 font-bold">JCI Ariana</span>
-                <span class="text-gray-600 font-bold">JCI Innovation El Ghazela</span>
-                <span class="text-gray-600 font-bold">JCI Menzah El Manara</span>
                 <span class="text-gray-600 font-bold">IEEE SESAME Student Branch</span>
+                <span class="text-gray-600 font-bold">JCI Ariana</span>
+                <span class="text-gray-600 font-bold">JCI Ariana El Medina</span>
+                <span class="text-gray-600 font-bold">JCI Innovation El Ghazela</span>
             </div>
         </section>
     </main>
@@ -208,4 +240,5 @@
         <p class="text-sm">© 2025 Mario Hack. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
